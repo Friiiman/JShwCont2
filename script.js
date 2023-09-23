@@ -37,7 +37,7 @@ dropdownMenuButton.id = "superDropdown";
 const ariaLabelledby = document.querySelector(
   "[aria-labelledby='dropdownMenuButton']"
 );
-ariaLabelledby.setAttribute("data-dd", "3");
+ariaLabelledby.dataset.dd = 3;
 
 // 7. Удалите атрибут type у элемента с классом "dropdown-toggle".
 
